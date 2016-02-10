@@ -39,7 +39,7 @@ c1 = 193
 
 So `ff` is actually 256 &mdash; or, if you start everything at 0 like programmers do (instead of at 1 like normal people), it's 255.
 
-Take a CSS color, like `#2b00ff`. That's actually 3 values squished together: `2b` `00` `ff`. These correspond to the red, green, and blue lights in each pixel. Converted to decimal, those numbers are `43 0 255`. This tells the computer to make the red light is a little bright, green is all the way off, and blue is on full-blast. These lights combine to make an <span style="background-color:#2b00ff; color:#fff;">indigo-colored pixel</a>.
+Take a CSS color, like `#2b00ff`. That's actually 3 values squished together: `2b` `00` `ff`. These correspond to the red, green, and blue lights in each pixel. Converted to decimal, those numbers are `43 0 255`. This tells the computer to make the red light is a little bright, green is all the way off, and blue is on full-blast. These lights combine to make an .
 
 Knowing this is nice because it lets you tweak colors really easily. You don't need to be a human calculator and convert decimals numbers into hex -- just remember that `ff` is a little brighter than `fe`, which is brighter than `fd`... `fc` `fb` `fa` `f9` `f8`... `9f` `9e` `9d`...
 
@@ -47,39 +47,26 @@ You may see a color written like `#3f9`. That's a shortcut for writing `#33ff99`
 
 ## Match the colors to their hexadecimal values!
 
-<style>
-td{
-  width:30vw;
-  text-align:center;
-}
-td span{
-  display:block;
-}
-span{
-  padding:5px;
-}
-</style>
-
-|Hex|English|
-|--|--|
-|`#FFFF00`|<span style="background-color:#000000; color:#fff;">black</span>|
-|`#FF00FF`|<span style="background-color:#999999; color:#000;">gray</span>|
-|`#FFFFFF`|<span style="background-color:#FFFFFF; color:#000;">white</span>|
-|`#FF8000`|<span style="background-color:#FF0000; color:#fff;">red</span>|
-|`#000000`|<span style="background-color:#00FF00; color:#000;">bright green</span>|
-|`#00FF00`|<span style="background-color:#0000FF; color:#fff;">blue</span>|
-|`#00FFFF`|<span style="background-color:#FFFF00; color:#000;">yellow</span>|
-|`#804000`|<span style="background-color:#FF00FF; color:#fff;">purple</span>|
-|`#0000FF`|<span style="background-color:#00FFFF; color:#000;">sky blue</span>|
-|`#FF0000`|<span style="background-color:#FF8000; color:#fff;">orange</span>|
-|`#008080`|<span style="background-color:#008080; color:#fff;">teal</span>|
-|`#999999`|<span style="background-color:#804000; color:#fff;">brown</span>|
+| Hex | English |
+| --- | --- |
+| `#FFFF00` | black |
+| `#FF00FF` | gray |
+| `#FFFFFF` | white |
+| `#FF8000` | red |
+| `#000000` | bright green|
+| `#00FF00` | blue |
+| `#00FFFF` | yellow |
+| `#804000` | purple |
+| `#0000FF` | sky blue |
+| `#FF0000` | orange |
+| `#008080` | teal |
+| `#999999` | brown |
 
 ## Extra Credit
 
 What words can you make using 6 hex characters? For example:
 
-- `0ff1ce` is <span style="color:#0ff1ce">sea green</span>
-- `beaded` is <span style="color:#beaded">soft purple</span>
-- `c0ffee` is <span style="color:#c0ffee; background-color:#555;">very light blue</span>
-- `defec8` is <span style="color:#defec8; background-color:#555;">kind of a pastel yellow-green</span>
+- `0ff1ce` is sea green
+- `beaded` is soft purple
+- `c0ffee` is very light blue
+- `defec8` is kind of a pastel yellow-green
